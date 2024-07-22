@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "experimentalDecorators": true,
+    "target": "ES6",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "moduleResolution": "node",
+    "allowJs": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "outDir": "dist"
+  },
+  "include": ["src/**/*", "jest.config.js"],
+}
