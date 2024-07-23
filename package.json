@@ -9,7 +9,7 @@
     "test:cov": "jest --coverage",
     "build": "tsc",
     "clean": "rm -rf dist",
-    "start": "node --inspect dist/server.js"
+    "start": "node --inspect dist/src/server.js"
   },
   "keywords": [],
   "author": "",
